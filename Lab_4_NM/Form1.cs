@@ -67,8 +67,6 @@ namespace Lab_4_NM
 
             // Метод Ейлера
             {
-                a_h = a;
-                b_h = b;
                 y0_h = y0;
                 h_h = h;
 
@@ -79,7 +77,7 @@ namespace Lab_4_NM
                 for (int i = 0; i < arr_size; i++)
                 {
                     arr_y[0] = y0_h;
-                    arr_x[0] = (-4 * y0_h) / (y0_h - 5);
+                    arr_x[0] = 8 / 15;
 
                     if (arr_x[i] >= a && arr_x[i] <= b) 
                     {
@@ -99,8 +97,6 @@ namespace Lab_4_NM
 
             // Метод додаткового півкроку
             {
-                a_h = a;
-                b_h = b;
                 y0_h = y0;
                 h_h = h;
 
@@ -113,8 +109,8 @@ namespace Lab_4_NM
                 for (int i = 0; i < arr_size; i++)
                 {
                     arr_y[0] = y0_h;
-                    arr_x[0] = (-4 * y0_h) / (y0_h - 5);
-                    
+                    arr_x[0] = 8 / 15;
+
                     if (arr_x[i] >= a && arr_x[i] <= b)
                     {
                         chart1.Series[1].Points.AddXY(arr_x[i], arr_y[i]);
@@ -137,8 +133,6 @@ namespace Lab_4_NM
 
             // Метод пробного кроку
             {
-                a_h = a;
-                b_h = b;
                 y0_h = y0;
                 h_h = h;
 
@@ -151,7 +145,7 @@ namespace Lab_4_NM
                 for (int i = 0; i < arr_size; i++)
                 {
                     arr_y[0] = y0_h;
-                    arr_x[0] = (-4 * y0_h) / (y0_h - 5);
+                    arr_x[0] = 8 / 15;
 
                     if (arr_x[i] >= a && arr_x[i] <= b)
                     {
@@ -174,8 +168,6 @@ namespace Lab_4_NM
 
             // Метод Рунге-Кутта
             {
-                a_h = a;
-                b_h = b;
                 y0_h = y0;
                 h_h = h;
 
@@ -192,7 +184,7 @@ namespace Lab_4_NM
                 for (int i = 0; i < arr_size; i++)
                 {
                     arr_y[0] = y0_h;
-                    arr_x[0] = (-4 * y0_h) / (y0_h - 5);
+                    arr_x[0] = 8 / 15;
 
                     if (arr_x[i] >= a && arr_x[i] <= b)
                     {

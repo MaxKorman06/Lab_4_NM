@@ -113,6 +113,7 @@ namespace Lab_4_NM
             this.textBox_y0.Name = "textBox_y0";
             this.textBox_y0.Size = new System.Drawing.Size(100, 20);
             this.textBox_y0.TabIndex = 14;
+            this.textBox_y0.Text = "1,7";
             // 
             // textBox_a
             // 
@@ -120,6 +121,7 @@ namespace Lab_4_NM
             this.textBox_a.Name = "textBox_a";
             this.textBox_a.Size = new System.Drawing.Size(100, 20);
             this.textBox_a.TabIndex = 15;
+            this.textBox_a.Text = "3";
             // 
             // textBox_b
             // 
@@ -127,6 +129,7 @@ namespace Lab_4_NM
             this.textBox_b.Name = "textBox_b";
             this.textBox_b.Size = new System.Drawing.Size(100, 20);
             this.textBox_b.TabIndex = 16;
+            this.textBox_b.Text = "5";
             // 
             // textBox_h
             // 
@@ -134,6 +137,7 @@ namespace Lab_4_NM
             this.textBox_h.Name = "textBox_h";
             this.textBox_h.Size = new System.Drawing.Size(100, 20);
             this.textBox_h.TabIndex = 17;
+            this.textBox_h.Text = "0,2";
             // 
             // label1
             // 
